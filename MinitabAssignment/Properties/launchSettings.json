@@ -1,0 +1,12 @@
+﻿{
+  "iisSettings": {
+    "iisExpress": {
+      "applicationUrl": "http://localhost:45187"
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress"
+    }
+  }
+}

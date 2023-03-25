@@ -1,0 +1,7 @@
+﻿- The specifics of the models are unimportant for this example, so there are no particular rules or validation, like simple checks for valid values, or compound checks like partial addresses.
+- A dummy ICrmRepository implementation is used as a placeholder.
+- The endpoint is defined at POST /<model name> as is typical of CRUD/REST APIs
+- "Production ready" error handling is omitted for simplicity. 
+- "Production ready" third-party API consumption behavior is omitted for simplicity and because the USPS Web Tools API ToU does not actually allow for testing.
+	- Similarly/as a result, the address validation code does not include credentials and will not make API requests, and hardcoded success/error responses are included, alongside commented code that *would* send make the requests.
+- Tests are not exhaustive, and are demonstrating technique but not necessarily completeness.
